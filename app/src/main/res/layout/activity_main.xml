@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.textfield.TextInputLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/img">
+
+    <TextView
+        android:id="@+id/myText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to 6A5"
+        android:textSize="30dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="70dp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/mybx1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="Enter Name"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/myText"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="30dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/myedt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/mybx2"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="Enter E-Mail"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mybx1"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="30dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/myedt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/mybx3"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="Enter PassWord"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/myText"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="30dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/myedt3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Submit"
+        app:layout_constraintTop_toBottomOf="@id/myText"
+        android:layout_marginHorizontal="100dp">
+
+    </Button>
+
+</com.google.android.material.textfield.TextInputLayout>
+
+
