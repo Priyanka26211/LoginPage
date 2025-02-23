@@ -29,5 +29,6 @@ Welcome to the **Login Page Application**! This Android app is designed to provi
 
 ## 🌐 Resources
 
+- https://github.com/Priyanka26211/LoginPage
 - [Android Developers Documentation - EditText](https://developer.android.com/reference/android/widget/EditText)
 - [Guide on Using Toast in Android](https://developer.android.com/guide/topics/ui/notifiers/toasts)
